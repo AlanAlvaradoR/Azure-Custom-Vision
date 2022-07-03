@@ -51,7 +51,7 @@ Entrenamiento de una custom Vision de Azure
 
 12. Se seleccionan todas las imagenes de un objeto (por ejemplo, todas las fotos de una galaxia) y se suben, después en el parte inferior en "Tags" se coloca el nombre del objeto. Se debe ver parecido a esto:
 
-![Imagen Subida Galaxias](https://github.com/AlanAlvaradoR/Azure-Custom-Vision/blob/main/imagenes/CVision.jpg)
+![Imagen Subida Galaxias](https://github.com/AlanAlvaradoR/Azure-Custom-Vision/blob/main/imagenes/SubidaImagenes.PNG)
 
 10. Se da click en "subir imagenes" y después en "listo".
 
@@ -69,3 +69,7 @@ Entrenamiento de una custom Vision de Azure
     En este caso se selecciona "Quick Train" para no perder tanto tiempo y se click en "Train".
     
  15. Abrirá una ventana donde indica el progreso en el entrenamiento. Se espera hasta que termine.
+ 
+ 16. Una vez terminado se mostrarán los parámetros que consiguió el sistema con el entrenamiento en forma de gráficas. Para probarlo, se da click en el botón superior de "Quick Test".
+ 
+ 17. Se abrirá otra ventana donde se puede seleccionar una imagen por medio de una URL o subirla desde nuestro equipo para testear el sistema entrenado. Una vez seleccionada la imagen se cargará una previsualización de la misma y se mostrarán los resultados de la predicción en la parte inferior derecha.
