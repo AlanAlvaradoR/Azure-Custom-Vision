@@ -31,7 +31,7 @@ Entrenamiento de una custom Vision de Azure
 
 6. Se selecciona el tipo de proyecto:
 
-    - **Classificication**: Se dan varias imagenes de muestra dando una parámetro de qué es lo que hay en todas esas imagenes (Por ejemplo: fotos de un planeta) (Decirle a la IA qué es TODA LA IMAGEN)
+    - **Classification**: Se dan varias imagenes de muestra dando una parámetro de qué es lo que hay en todas esas imagenes (Por ejemplo: fotos de un planeta) (Decirle a la IA qué es TODA LA IMAGEN)
     - **Object Detection**: Dentro de una imagen con distintos elementos, se indica por medio de un recuadro qué es un objeto en específico, así se podrá detectar ese mismo objeto dentro de otras imagenes que contengan más cosas aparte del objeto.
     
 7. Se selecciona el tipo de clasificación:
@@ -73,3 +73,5 @@ Entrenamiento de una custom Vision de Azure
  16. Una vez terminado se mostrarán los parámetros que consiguió el sistema con el entrenamiento en forma de gráficas. Para probarlo, se da click en el botón superior de "Quick Test".
  
  17. Se abrirá otra ventana donde se puede seleccionar una imagen por medio de una URL o subirla desde nuestro equipo para testear el sistema entrenado. Una vez seleccionada la imagen se cargará una previsualización de la misma y se mostrarán los resultados de la predicción en la parte inferior derecha.
+ 
+ 18. Si se desea comsumir el servicio por medio de una API, se da click en el botón superior izquierdo de "Publicar" y se mostrarán los links para consumir la API.
